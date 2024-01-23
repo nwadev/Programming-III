@@ -1,0 +1,36 @@
+Chapter 18 summary
+
+
+A recursive method is one that directly or indirectly
+invokes itself. For a recursive method to terminate,
+there must be one or more base cases.
+
+
+2. Recursion is an alternative form of program control. It
+is essentially repetition without a loop control. It can
+be used to write simple, clear solutions for inherently
+recursive problems that would otherwise be difficult to
+solve.
+
+
+3. Sometimes the original method needs to be modified
+to receive additional parameters in order to be invoked
+recursively. A recursive helper method can be defined for
+this purpose.
+
+
+4. Recursion bears substantial overhead. Each time the
+program calls a method, the system must allocate
+memory for all of the method’s local variables and
+parameters. This can consume considerable memory
+and requires extra time to manage the memory.
+
+
+5. A recursive method is said to be tail recursive if there
+are no pending operations to be performed on return
+from a recursive call. Some compilers can optimize tail
+recursion to reduce stack size.
+
+
+6. Tail recursion is when the recurison is the lst step (calling its self)
+non tail recurison is when the last step isnt a recurison call (calling itself and then doing extra shit)
